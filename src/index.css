@@ -315,6 +315,19 @@ h1, h2, h3, h4 {
   font-family: var(--font-body);
 }
 
+/* Sidebar link style used for GitHub / attribution links */
+.sidebar-link {
+  display: block;
+  margin-top: 0.625rem;
+  font-size: 0.7rem;
+  color: rgba(240, 228, 208, 0.45);
+  text-decoration: none;
+  transition: color 0.12s ease-in-out;
+}
+.sidebar-link:hover {
+  color: rgba(240, 228, 208, 0.85);
+}
+
 /* Mobile logo / toggle */
 .logo-text-mobile {
   font-family: var(--font-display);

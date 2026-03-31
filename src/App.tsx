@@ -56,14 +56,26 @@ function App() {
           <button className="theme-toggle" onClick={() => setDarkMode(d => !d)}>
             {darkMode ? '☀ Light mode' : '◑ Dark mode'}
           </button>
-          <p className="privacy-note">All processing is 100% client-side. No data ever leaves your browser.</p>          <a
+          <p className="privacy-note">All processing is 100% client-side. No data ever leaves your browser.</p>
+          <a
             href="https://github.com/jere-mie/seotools"
             target="_blank"
             rel="noopener noreferrer"
-            style={{ display: 'block', marginTop: '0.625rem', fontSize: '0.7rem', color: 'rgba(240,228,208,0.45)', textDecoration: 'none' }}
+            className="sidebar-link"
+            style={{ marginTop: '0.625rem' }}
           >
             GitHub &middot; MIT License
-          </a>        </div>
+          </a>
+          <a
+            href="https://jeremie.bornais.ca"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="sidebar-link"
+            style={{ marginTop: '0.25rem' }}
+          >
+            Made by Jeremie Bornais
+          </a>
+        </div>
       </aside>
 
       {/* ── Mobile header ─────────────────────── */}
